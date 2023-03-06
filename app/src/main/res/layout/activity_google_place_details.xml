@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.GooglePlaceDetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_placeDetails"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary_background_color"
+        android:theme="@style/custom_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/add_image"
+        android:scrollbars="vertical"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_placeDetailsImage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/place_details_image_size"
+                android:layout_marginTop="@dimen/place_details_marginsTop"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_no_image"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/tv_placeDetailsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="MOUNT EVEREST"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/place_details_text_size"
+                android:textColor="@color/primary_text_color"
+                android:layout_marginTop="@dimen/place_details_marginsTop"/>
+
+            <TextView
+                android:id="@+id/tv_placeDetailsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/place_details_marginsTop"
+                android:background="@color/primary_background_color"
+                android:textColor="#607D8B"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                tools:text="MOUNT EVEREST IS LOCATED IN ASIA. IT IS THE HIGHEST MOUNT." />
+            
+            <Button
+                android:id="@+id/btn_view_on_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="15dp"
+                android:text="VIEW ON MAP"
+                android:textSize="25sp"
+                android:textColor="@color/primary_text_color"
+                android:backgroundTint="@color/primary_background_color"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

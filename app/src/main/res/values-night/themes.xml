@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GooglePlacesApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- CUSTOM STYLE FOR THE 'AddGoogleMapsPlaceActivity' -->
+    <style name="custom_no_action_bar_theme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- GIVE THE STATUS BAR SPECIFIED COLOR!!! -->
+        <item name="android:statusBarColor">@color/primary_background_color</item>
+    </style>
+
+    <!-- STYLE THEME FOR THE CUSTOM TOOLBAR -->
+    <style name="custom_toolbar">
+        <!-- EACH CHILD VIEW(INCLUDING TOOLBAR'S PROPERTIES: TEXTS, TITLES, ETC... )
+        WHICH HAS TEXT WILL BE SET TO THIS SPECIFIED COLOR!!!!! -->
+        <item name="android:textColorPrimary">#A0C3D2</item>
+        <!-- THIS COLOR IS FOR THE BACK BUTTON FOR THE TOOLBAR! -->
+        <item name="android:colorControlNormal">#A0C3D2</item>
+    </style>
+</resources>

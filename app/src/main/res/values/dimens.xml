@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DIMENSIONS FOR GLOBAL USE FOR VIEWS -->
+<resources>
+    
+    <dimen name="floating_action_bar_margin">20dp</dimen>
+    <dimen name="add_place_scroll_view_child_padding">10dp</dimen>
+    <dimen name="scroll_view_child_views_margin_top">25dp</dimen>
+    <dimen name="edit_text_user_input_text_size">20sp</dimen>
+    <dimen name="tv_text_no_places_found">25sp</dimen>
+
+    <dimen name="recyclerview_item_google_place_marginStartEnd">10dp</dimen>
+    <dimen name="recyclerview_item_google_place_corner_radius">7dp</dimen>
+    <dimen name="recyclerview_item_google_place_content_padding">5dp</dimen>
+    <dimen name="recyclerview_item_circle_image_size">100dp</dimen>
+    <dimen name="place_details_image_size">250dp</dimen>
+    <dimen name="place_details_marginsTop">40dp</dimen>
+    <dimen name="place_details_text_size">30sp</dimen>
+</resources>

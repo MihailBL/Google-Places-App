@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GooglePlacesApp</string>
+    <string name="enter_title">Enter Title…</string>
+    <string name="enter_description">Enter Description…</string>
+    <string name="enter_date">Enter Date…</string>
+    <string name="enter_location">Enter Location…</string>
+    <string name="add_image">ADD IMAGE</string>
+    <string name="save">SAVE</string>
+    <string name="text_no_saved_google_places">No Saved Places Found</string>
+    <string name="image_description">Image Description</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+
+
+</resources>
